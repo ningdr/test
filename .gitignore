@@ -7,7 +7,7 @@
 /wpcs/*
 
 ### IGORPro template
-# Avoid including Experiment files: they can be created and edited locally to test the ipf files
+# Avoid including Experiment files: they can be created and edited locally to testt the ipf files
 *.pxp
 *.pxt
 *.uxp
@@ -59,8 +59,8 @@
 /pkg/
 /spec/reports/
 /spec/examples.txt
-/test/tmp/
-/test/version_tmp/
+/testt/tmp/
+/testt/version_tmp/
 /tmp/
 
 # Used by dotenv library to load environment variables.
@@ -207,7 +207,7 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Unit test / coverage reports
+# Unit testt / coverage reports
 htmlcov/
 .tox/
 .nox/
@@ -547,10 +547,10 @@ classes_gen
 source_gen
 source_gen.caches
 
-# generated test code and test results
+# generated testt code and testt results
 test_gen
 test_gen.caches
-TEST-*.xml
+testt-*.xml
 junit*.properties
 
 ### Yeoman template
@@ -701,7 +701,7 @@ nbdist/
 #Mono Project Files
 *.pidb
 *.resources
-test-results/
+testt-results/
 
 ### CraftCMS template
 # Craft 2 Storage (https://craftcms.com/support/craft-storage-gitignore)
@@ -786,7 +786,7 @@ node_modules/
 
 # Ignore precompiled javascript packs
 /public/packs
-/public/packs-test
+/public/packs-testt
 /public/assets
 
 # Ignore yarn files
@@ -830,7 +830,7 @@ war/WEB-INF/classes/
 .gwt/
 
 #gwt junit compilation files
-www-test/
+www-testt/
 
 #old GWT (1.5) created this dir
 .gwt-tmp/
@@ -2937,7 +2937,7 @@ bld/
 # Visual Studio 2017 auto generated files
 Generated\ Files/
 
-# MSTest test Results
+# MSTest testt Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
@@ -2994,7 +2994,7 @@ StyleCopReport.xml
 *.svclog
 *.scc
 
-# Chutzpah Test files
+# Chutzpah testt files
 _Chutzpah*
 
 # Visual C++ cache files
@@ -3264,7 +3264,7 @@ rerun/
 reports/
 screenshots/
 screenshot*.png
-test-servers/
+testt-servers/
 
 # bundler
 .bundle
@@ -3310,7 +3310,7 @@ lib-cov
 coverage
 *.lcov
 
-# nyc test coverage
+# nyc testt coverage
 .nyc_output
 
 # Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
@@ -3358,7 +3358,7 @@ web_modules/
 
 # dotenv environment variables file
 .env
-.env.test
+.env.testt
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -3394,7 +3394,7 @@ dist
 .tern-port
 
 # Stores VSCode versions used for testing VSCode extensions
-.vscode-test
+.vscode-testt
 
 # yarn v2
 .yarn/cache
@@ -3777,7 +3777,7 @@ bin/
 /project/target
 /target
 tmp/
-test-result
+testt-result
 server.pid
 *.eml
 /dist/
@@ -3845,7 +3845,7 @@ build
 # Installer logs
 pip-log.txt
 
-# Unit test / coverage reports
+# Unit testt / coverage reports
 .coverage
 .tox
 
@@ -3857,8 +3857,8 @@ pip-log.txt
 *.so
 *.dylib
 
-# Test binary, built with `go test -c`
-*.test
+# testt binary, built with `go testt -c`
+*.testt
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
@@ -4182,7 +4182,7 @@ Makefile.in
 /ar-lib
 /mdate-sh
 /py-compile
-/test-driver
+/testt-driver
 /ylwrap
 .deps/
 .dirstamp
@@ -5650,7 +5650,7 @@ fp-info-cache
 
 # logs
 /stacktrace.log
-/test/reports
+/testt/reports
 /logs
 
 # project release file
@@ -5956,9 +5956,9 @@ crush.dll
 crush.dylib
 crush.so
 
-# Files generated during test
-quick-test/quick-test.log
-quick-test/runnable/
+# Files generated during testt
+quick-testt/quick-testt.log
+quick-testt/runnable/
 system/tests/source/units/auto-tests/
 tests/source/units/auto-tests/
 
@@ -6420,9 +6420,9 @@ bin/*.ap_
 /classes/
 /dist/
 /exploded-archives/
-/test-build/
-/test-output/
-/test-report/
+/testt-build/
+/testt-output/
+/testt-report/
 /target/
 temp-testng-customsuite.xml
 
@@ -6431,11 +6431,11 @@ temp-testng-customsuite.xml
 #/classes/  		              all class files
 #/dist/                       contains generated war files for deployment
 #/exploded-archives/		      war content generation during deploy (or explode)
-#/test-build/                 test compilation (ant target for Seam)
-#/test-output/                test results
-#/test-report/                test report generation for, e.g., Hudson
+#/testt-build/                 testt compilation (ant target for Seam)
+#/testt-output/                testt results
+#/testt-report/                testt report generation for, e.g., Hudson
 #/target/                     maven output folder
-#temp-testng-customsuite.xml	generated when running test cases under Eclipse
+#temp-testng-customsuite.xml	generated when running testt cases under Eclipse
 
 # Thanks to @VonC and @kraftan for their helpful answers on a related question
 # on StackOverflow.com:
